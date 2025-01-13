@@ -1,0 +1,23 @@
+name = "aiken-lang/staker"
+version = "0.0.0"
+compiler = "v1.1.5"
+plutus = "v2"
+license = "Apache-2.0"
+description = "Aiken contracts for project 'aiken-lang/staker'"
+
+[repository]
+user = "aiken-lang"
+project = "staker"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v2.1.0"
+source = "github"
+
+[[dependencies]]
+name = "logical-mechanism/assist"
+version = "v0.5.0"
+source = "github"
+
+[config]
